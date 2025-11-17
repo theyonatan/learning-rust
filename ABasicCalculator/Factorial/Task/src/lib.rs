@@ -10,4 +10,14 @@
 //
 // Use only what you learned! No loops yet, so you'll have to use recursion!
 
-/* TODO */
+pub fn factorial(n: u32) -> u32 {
+    if n == 0 {
+        return 1;
+    }
+    
+    if n == 1 {
+        n
+    } else {
+        n * factorial(n - 1)
+    }
+}
