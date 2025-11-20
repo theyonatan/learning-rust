@@ -2,16 +2,17 @@
 //   We've changed the enum variants to be more specific, thus removing the need for storing
 //   a `String` field into each variant.
 //   You'll also have to add `thiserror` as a dependency in the `Cargo.toml` file.
+use thiserror::Error;
 
-/* TODO */
+#[derive(Error, Debug)]
 pub enum TicketNewError {
-    /* TODO */
+    #[error("Title cannot be empty")]
     TitleCannotBeEmpty,
-    /* TODO */
+    #[error("Title cannot be longer than 50 bytes")]
     TitleTooLong,
-    /* TODO */
+    #[error("Description cannot be empty")]
     DescriptionCannotBeEmpty,
-    /* TODO */
+    #[error("Description cannot be longer than 500 bytes")]
     DescriptionTooLong,
 }
 

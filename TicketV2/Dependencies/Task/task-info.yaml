@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 73
-        length: 6
+        length: 33
         placeholder_text: "# TODO"
         initial_state:
           length: 6
@@ -23,5 +23,8 @@ files:
   - name: src/main.rs
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 20 Nov 2025 12:23:06 UTC"
 record: -1

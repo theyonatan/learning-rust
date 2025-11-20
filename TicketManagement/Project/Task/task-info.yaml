@@ -1,11 +1,13 @@
-﻿type: theory
+﻿type: edu
 files:
-  - name: src/main.rs
+  - name: src/lib.rs
     visible: true
     learner_created: false
   - name: Cargo.toml
     visible: false
     learner_created: false
-status: Solved
+  - name: tests/tests.rs
+    visible: false
+    learner_created: false
+status: Unchecked
 record: -1
-post_submission_on_open: true
