@@ -1,0 +1,53 @@
+﻿type: edu
+files:
+  - name: src/lib.rs
+    visible: true
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    learner_created: false
+  - name: tests/tests.rs
+    visible: false
+    learner_created: false
+  - name: src/store.rs
+    visible: true
+    placeholders:
+      - offset: 768
+        length: 82
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 768
+        initialized_from_dependency: false
+        encrypted_possible_answer: /5aJTE33XfW+80vJM2nJHc5rZ0Q/UL4oOnj2Cv9yWAOde3grbIYbRw8k3VRLZ+H9+FrMQVJL437V09qAaT+umQ==
+        selected: false
+        status: Solved
+      - offset: 1044
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 972
+        initialized_from_dependency: false
+        encrypted_possible_answer: NDPfDiSLJjT9WjJkl+Ore9zoeh0z5cj5RStNzgxUF/g=
+        selected: false
+        status: Solved
+      - offset: 1066
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 994
+        initialized_from_dependency: false
+        encrypted_possible_answer: NE/y/HzUK3Sukc9Eaeatv6eOC2iG196RMDo80q8UuKk=
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: src/data.rs
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 20 Nov 2025 17:35:57 UTC"
+record: -1
